@@ -1,16 +1,16 @@
 # This was done using Netbeans 12. 
 # Requirements to run this program.
-# This was made in Java with Ant Web Application.
-# Java EE Version should be Java EE 5.
+ This was made in Java with Ant Web Application.
+ Java EE Version should be Java EE 5.
 # Libraries Used
-  #  - JDK Version: JDK 1.8
-  #  - Glassfish Server
-  #  - commons-codec-1.9.jar
+    - JDK Version: JDK 1.8
+    - Glassfish Server
+    - commons-codec-1.9.jar
     
 # Database Setup
-  # - Java DB (Derby)
-  # - The database should be UserDB, and the username, and password set to "app". You can change the username and password to your preferences.
-  # - Note: for changing of username and password you should also change the param-value of both param-name "dbUsername" and "dbPassword" to your preffered username and password on web.xml under WEB-INF file
+   - Java DB (Derby)
+   - The database should be UserDB, and the username, and password set to "app". You can change the username and password to your preferences.
+   - Note: for changing of username and password you should also change the param-value of both param-name "dbUsername" and "dbPassword" to your preffered username and password on web.xml under WEB-INF file
 
 # Original Code:
         <init-param>
