@@ -37,8 +37,8 @@
             <param-value>jdbc:derby://localhost:1527/UserDB</param-value>
         </init-param>
 
-# Make you have JavaDB installed for the database to work
-# UserDB SQL Codes using the executable command: You can create as many usernames, passwords, and roles as you want
+# Note : Make you have JavaDB installed for the database to work
+UserDB SQL Codes using the executable command: You can create as many usernames, passwords, and roles as you want
   CREATE TABLE USER_INFO (
       username VARCHAR(30),
       password VARCHAR(20),
