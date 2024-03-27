@@ -41,7 +41,7 @@
 # UserDB SQL Codes using the executable command: You can create as many usernames, passwords, and roles as you want
      CREATE TABLE USER_INFO (
       username VARCHAR(30),
-      password VARCHAR(20),
+      password VARCHAR(100), --It needs to be 100 since you are going to encrypt the password 
       role VARCHAR(10)
       );
 
